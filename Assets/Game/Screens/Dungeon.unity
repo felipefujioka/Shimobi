@@ -181,7 +181,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: TouchScript.Gestures.Gesture+GestureEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  basicEditor: 1
+  basicEditor: 0
   generalProps: 0
   limitsProps: 0
   advancedProps: 0
@@ -479,7 +479,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 842125789}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 5
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -857,8 +857,8 @@ RectTransform:
   m_Father: {fileID: 1157450123}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.016496547, y: 0.5858313}
-  m_AnchorMax: {x: 0.12585063, y: 0.95988935}
+  m_AnchorMin: {x: 0.016496547, y: 0.7163541}
+  m_AnchorMax: {x: 0.27439237, y: 0.9598039}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1075,7 +1075,8 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 19.974272
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2773447700497874089, guid: d2893217aa4ae442aa046da76343d8f5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d2893217aa4ae442aa046da76343d8f5, type: 3}
 --- !u!1001 &4482815064908957628
 PrefabInstance:

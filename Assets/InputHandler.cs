@@ -30,7 +30,10 @@ public class InputHandler : Gesture
 
     protected override void pointersUpdated(IList<Pointer> pointers)
     {
-        
+        if (Vector2.SqrMagnitude(mainPointerPosition - mainPointer.Position) > 0.1f)
+        {
+            setState(GestureState.Ended);
+        }
     }
 
     protected override void pointersReleased(IList<Pointer> pointers)
